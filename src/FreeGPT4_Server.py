@@ -65,7 +65,7 @@ async def index() -> str:
     # return "<p id='response'>" + resp + "</p>" # Uncomment if preferred
 
 
-if if __name__ == '__main__':
+if __name__ == '__main__':
     print(
         """
         FreeGPT4 Web API - A Web API for GPT-4 (Using BingAI)
