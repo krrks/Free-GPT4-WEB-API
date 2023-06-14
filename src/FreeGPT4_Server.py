@@ -48,7 +48,7 @@ async def index() -> str:
             await bot.ask(
                 prompt=question,
                 conversation_style="creative",
-                wss_link=args.wss_link,
+                # wss_link=args.wss_link,
             )
         )["item"]["messages"][1]["adaptiveCards"][0]["body"][0]["text"],
     )[0]
