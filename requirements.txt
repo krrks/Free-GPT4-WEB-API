@@ -1,5 +1,5 @@
 EdgeGPT
-flask
-flask[async]
+#flask
+#flask[async]
 aiohttp
 aioflask
