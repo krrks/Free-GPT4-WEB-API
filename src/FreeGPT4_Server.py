@@ -65,7 +65,7 @@ async def index() -> str:
     # return "<p id='response'>" + resp + "</p>" # Uncomment if preferred
 
 
-if True:
+if if __name__ == '__main__':
     print(
         """
         FreeGPT4 Web API - A Web API for GPT-4 (Using BingAI)
@@ -112,4 +112,4 @@ if True:
             fp.close()
 
     #Starts the server, change the port if needed
-    app.run("0.0.0.0", port=80, debug=False) #("0.0.0.0", port=5500, debug=False)
+    app.run("0.0.0.0", port=8080, debug=False) #("0.0.0.0", port=5500, debug=False)
