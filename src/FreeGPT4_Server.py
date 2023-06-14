@@ -20,7 +20,7 @@ async def index() -> str:
     """
     # Starts the bot and gets the input and style
     print("Initializing...")
-    bot = Chatbot(proxy=args.proxy)
+    bot = Chatbot()#(proxy=args.proxy)
     question = None
     style = "creative"
 
