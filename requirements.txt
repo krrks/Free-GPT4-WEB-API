@@ -2,3 +2,4 @@ EdgeGPT
 flask
 flask[async]
 aiohttp
+aioflask
